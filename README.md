@@ -29,7 +29,7 @@ Here's a basic rundown:
 - range/max: Max laser range (double, default: 1.0). Values farther will be set to range/max + 1.0 (no return)
 - range/noise: Gaussian noise standard deviation (double, default: 0.01). Set to 0 to disable noise.
 - angle/min: Scan start angle (double, default -π/2)
-- angle/min: Scan end angle (double, default π/2, inclusive)
+- angle/max: Scan end angle (double, default π/2, inclusive)
 - angle/increment: Angular step size (double, default 0.01)
 - **map/topic**: The OccupancyGrid topic to listen to (string, default "/map")
 - map/image_frame: An intermediate TF frame published internally (string, default "/map_image")

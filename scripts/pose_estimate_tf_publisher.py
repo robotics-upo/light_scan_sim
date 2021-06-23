@@ -6,6 +6,7 @@ from geometry_msgs.msg import PoseWithCovarianceStamped, Pose
 import tf
 
 pose = Pose()
+pose.orientation.w = 1
 
 # Update the global pose
 def callback_pose(data):
